@@ -1,0 +1,39 @@
+.tittle{
+margin: 20px;
+}
+
+.tittle h1 span{
+  color:rgb(203, 0, 0)
+}
+
+.App .slider{
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  min-height: 00vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner{
+  display: flex;
+}
+
+.item{
+  min-width: 400px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.item img{
+  width: 100%;
+  height: 90%;
+  pointer-events: none;
+  display: flex;
+}
+
+.carousel{
+  cursor: grab;
+  overflow: hidden;
+}
